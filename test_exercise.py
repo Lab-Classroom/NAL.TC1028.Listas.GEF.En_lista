@@ -23,5 +23,5 @@ def test_exercise():
 
     src.exercise.main()
 
-    assert output == ["","","","","","Search for?","Mary was found!",\
-                        "","","","","","Search for?","Logan was not found!"]
+    assert output == ["","","","","","Search for? ","Mary was found!",\
+                        "","","","","","Search for? ","Logan was not found!"]
